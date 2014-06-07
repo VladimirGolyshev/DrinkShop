@@ -8,6 +8,7 @@
 		public User()
 		{
 			Comments = new List<Comment>();
+			Orders = new List<Order>();
 		}
 
 		public int Id { get; set; }
@@ -19,5 +20,7 @@
 		public string Password { get; set; }
 
 		public virtual ICollection<Comment> Comments { get; set; }
+
+		public virtual ICollection<Order> Orders { get; set; } 
 	}
 }
