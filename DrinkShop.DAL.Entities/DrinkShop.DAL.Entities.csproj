@@ -39,7 +39,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Comment.cs" />
+    <Compile Include="Drink.cs" />
     <Compile Include="Interface\IEntity.cs" />
+    <Compile Include="Order.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="User.cs" />
   </ItemGroup>
